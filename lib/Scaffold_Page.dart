@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("السلام عليكم"),
         leading: Icon(Icons.arrow_back),
+        actions: [Icon(Icons.video_call)],
       ),
     );
   }
