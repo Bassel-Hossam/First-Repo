@@ -6,6 +6,9 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       backgroundColor: Colors.teal,
+      appBar: AppBar(
+        title: Text("السلام عليكم"),
+      ),
     );
   }
 }
