@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.teal,
       appBar: AppBar(
         title: Text("السلام عليكم"),
-        leading: Icon(Icons.arrow_back),
+        leading: Icon(Icons.phone),
       ),
     );
   }
