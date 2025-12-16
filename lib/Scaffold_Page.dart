@@ -8,7 +8,6 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.teal,
       appBar: AppBar(
         title: Text("السلام عليكم"),
-        leading: Icon(Icons.arrow_back),
         actions: [Icon(Icons.video_call)],
       ),
     );
